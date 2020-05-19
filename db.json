@@ -1,0 +1,30 @@
+{
+    "cursos": [{
+        "id":"1",
+        "nome":"Angular",
+        "categoria":"Programação",
+        "nivel":"Iniciante",
+        "valor":"Gratuito"
+    },
+    {
+        "id":"2",
+        "nome":"Angular",
+        "categoria":"Programação",
+        "nivel":"Iniciante",
+        "valor":"Gratuito"
+    },
+    {
+        "id":"3",
+        "nome":"Angular",
+        "categoria":"Programação",
+        "nivel":"Iniciante",
+        "valor":"Gratuito"
+    }],
+    "usuarios": [{
+        "id": 1,
+        "nome": "Admin", 
+        "username": "admin" ,
+        "password": "admin",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwibm9tZSI6IkFkbWluIiwiZW1haWwiOiJhZG1pbkBhZG1pbi5jb20ifQ.0FX3Tww65lDhrUyKEZSvEt8XVWF3XRUpjSLlqkzQbUw"
+    }]
+}

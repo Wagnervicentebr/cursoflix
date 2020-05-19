@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+/*RESET*/
+* {padding: 0; margin: 0; box-sizing: border-box; outline: none !important;}
+
+body {
+    background: rgb(20, 20, 20) !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+a {
+    text-decoration: none !important;
+}
+ul {
+    list-style: none !important;
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+.margin5 {
+    margin: 5px;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.margin-top10 {
+    margin-top: 10px;
+}
+
+.margin-top50 {
+    margin-top: 50px;
+}
+
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.flex {
+    display: flex;
+}

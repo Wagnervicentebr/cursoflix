@@ -1,0 +1,27 @@
+<header class="container">
+    <a href="#"><h1 class="logo">Texto</h1></a>
+    <button class="btn-menu" *ngIf="!toggleMenu">
+      <span class="glyphicon glyphicon-menu-hamburger" 
+            (click)="mudarMenu()" >
+      </span>
+    </button>  
+    <div class="menu-mobile" *ngIf="toggleMenu">
+      <button class="btn-close" (click)="mudarMenu()">
+        <span class="glyphicon glyphicon-remove"></span>
+      </button>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Categorias</a></li>
+        <li><a href="#">Top 10 cursos</a></li>
+        <li><a href="#">Sair</a></li>
+      </ul>
+    </div>
+    <div class="menu-bar">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Categorias</a></li>
+        <li><a href="#">Top 10 cursos</a></li>
+        <li><a href="#">Sair</a></li>
+      </ul>
+    </div>
+</header>
